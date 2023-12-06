@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div>
+        <button onclick="getAllData()">Get All Countries</button>
+    </div>
+    <div id="searchBarDiv">
+        <input type="text" id="searchCountries" placeholder="Enter country">
+        <button onclick="searchSpecificCountries()">Submit</button>
+    </div>
+    <div id="allCountriesDiv">
+        <h2>All Countries Stats:</h2>
+        <div id="allCountriesStats">
+
+        </div>
+        <table>
+            <thead>
+                <th>Name</th>
+                <th>Population</th>
+            </thead>
+            <tbody id="allCountriesTableBody">
+
+            </tbody>
+        </table>
+
+        <h2>Regions:</h2>
+        <table>
+            <thead>
+                <th>Name</th>
+                <th>Population</th>
+            </thead>
+            <tbody id="allCountriesRegionsTableBody">
+                
+            </tbody>
+        </table>
+    </div>
+
+    <div id="specificCountriesDiv">
+        <h2>Specific Countries Stats:</h2>
+        <div id="specificCountriesStats">
+            
+        </div>
+        <table>
+            <thead>
+                <th>Name</th>
+                <th>Population</th>
+            </thead>
+            <tbody id="specificCountriesTableBody">
+
+            </tbody>
+        </table>
+        <h2>Regions:</h2>
+        <table>
+            <thead>
+                <th>Name</th>
+                <th>Number of countries</th>
+            </thead>
+            <tbody id="specRegionTableBody">
+
+            </tbody>
+        </table>
+        <h2>Currencies:</h2>
+        <table>
+            <thead>
+                <th>Countries Currency Symol</th>
+                <th>Number of countries using this Currency</th>
+            </thead>
+            <tbody id="specCurrencyTableBody">
+
+            </tbody>
+        </table>
+    </div>
+    
+
+</body>
+
+</html>

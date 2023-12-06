@@ -1,0 +1,15 @@
+th, tr, td{
+    border: 1px solid black
+}
+#allCountriesDiv{
+    display: none;
+}
+#specificCountriesDiv{
+    display: none;
+}
+#searchBarDiv{
+    display: none;
+}
+div{
+    margin-top: 20px
+}
